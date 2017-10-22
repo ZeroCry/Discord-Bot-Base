@@ -44,7 +44,7 @@ namespace CoreBot
             catch (Exception e)
             {
                 Log.Information("------------------------------------\n" +
-                                $"{e}\n\n" +
+                                $"{e}\n" +
                                 "------------------------------------\n" +
                                 "Token was rejected by Discord (Invalid Token or Connection Error)\n" +
                                 "------------------------------------");
